@@ -1,6 +1,6 @@
 package ejercicios;
 
-import funciones.LibreriaFunciones;
+import librerias.LibreriaFunciones;
 
 public class Ej03MostrarSucesionFibonacci {
 
