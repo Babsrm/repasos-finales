@@ -53,7 +53,7 @@ public class Ej02CalculoSueldo {
 		}
 		
 		try {
-			while (antiguedad<=0 || antiguedad>45) {
+			while (antiguedad<0 || antiguedad>45) {
 				System.out.println("El valor introducido no es válido.");
 				System.out.println("Introduzca un valor numérico positivo entre 0 y 45.");
 				antiguedad = teclado.nextInt();	
