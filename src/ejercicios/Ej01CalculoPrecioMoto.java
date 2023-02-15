@@ -59,6 +59,6 @@ public class Ej01CalculoPrecioMoto {
 				+ "\nPrecio: " +String.format("%.2f",precio) + "€"
 				+ "\nDescuento aplicado: " +String.format("%.2f",precio*descuento) +"€"
 				+ "\nPrecio final: " +String.format("%.2f",precioFinal) +"€");
+		teclado.close();
 	}
-
-}
+	}
