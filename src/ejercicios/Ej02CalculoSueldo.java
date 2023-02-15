@@ -83,6 +83,7 @@ public class Ej02CalculoSueldo {
 				+ "\nAntigüedad: " +antiguedad +" años"
 				+ "\nAumento aplicado: " +String.format("%.2f",sueldo*aumento) +"€"
 				+ "\nSueldo final: " +String.format("%.2f",sueldoFinal) +"€");
+		teclado.close();
 	}
 
 }
